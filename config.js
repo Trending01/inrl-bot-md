@@ -21,7 +21,7 @@ module.exports = {
     BGMBOT : toBool(process.env.BGMBOT || "false"),
     CALL_BLOCK : toBool(process.env.CALL_BLOCK || "false"),
     STATUS_VIEW : process.env.STATUS_VIEW || "true",
-    SAVE_STATUS : toBool(process.env.SAVE_STATUS || "false"),
+    SAVE_STATUS : toBool(process.env.SAVE_STATUS || "true"),
     ADMIN_SUDO_ACCESS: toBool(process.env.ADMIN_SUDO_ACCESS || "true"),
     DISABLE_PM: toBool(process.env.DISABLE_PM || "false"),
     DISABLE_GRP : toBool(process.env.DISABLE_GRP || "false"),
